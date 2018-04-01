@@ -27,3 +27,8 @@ $: export JAVA_HOME=`/usr/libexec/java_home -v 9.0.4, x86_64`
 ```
 
 Similary for any other java version.
+
+
+REf:
+
+https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x
