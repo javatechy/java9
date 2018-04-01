@@ -28,6 +28,8 @@ $: export JAVA_HOME=`/usr/libexec/java_home -v 9.0.4, x86_64`
 
 Similary for any other java version.
 
+Java 9 Docs
+https://docs.oracle.com/javase/9/index.html
 
 REf:
 
