@@ -1,5 +1,10 @@
 package javatechy;
 
+/**
+ * Private methods are allowed in Java 9 
+ * @author deepak
+ *
+ */
 @FunctionalInterface
 interface PrivateInterface {
 	void performOpr();
