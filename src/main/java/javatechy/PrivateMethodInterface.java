@@ -1,7 +1,8 @@
 package javatechy;
 
 /**
- * Private methods are allowed in Java 9 
+ * Private methods are allowed in Java 9
+ * 
  * @author deepak
  *
  */
@@ -9,7 +10,11 @@ package javatechy;
 interface PrivateInterface {
 	void performOpr();
 
-	private  int test(){
+	public default void functionalInterfaceMethod() {
+		System.out.println("Can Call private method in  a functional Interface" + test());
+	}
+
+	private int test() {
 		return 1;
 	}
 }
@@ -21,5 +26,6 @@ public class PrivateMethodInterface {
 			System.out.println("Hello2");
 		};
 		pre.performOpr();
+		pre.functionalInterfaceMethod();
 	}
 }
